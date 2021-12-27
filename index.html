@@ -30,10 +30,10 @@
                         </span>Global Expert Logistics</a>
                 </h1>
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-          </span>
-        </button>
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
                 <!-- Menu / Toggle Menu -->
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mx-lg-auto">
@@ -51,8 +51,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="cta-btn">
-                    <a class="btn btn-style btn-primary" href="#">UZ</a>
+
+                <!-- language changer -->
+                <div class="cta-btn mr-3">
+                    <button class="btn btn-style btn-primary p-3" onclick="myFormFunc()">UZ</button>
                 </div>
 
                 <!--/search-right-->
@@ -478,7 +480,15 @@
             $('body').removeClass('search-active');
         });
     </script>
-    <!-- //Search -->
+
+    <!-- language-changer -->
+    <script>
+        function myFormFunc() {
+            window.location.href = "####"
+
+        }
+    </script>
+
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/language-changer.js"></script>
 
